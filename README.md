@@ -20,5 +20,4 @@ This project focuses on clean component structure and a responsive, friendly int
 Made with ❤️ and React.
 
 ## ✨ Preview
-
 ![](nsocial.gif)
