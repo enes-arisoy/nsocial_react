@@ -19,7 +19,7 @@ This project focuses on clean component structure and a responsive, friendly int
 
 Made with ❤️ and React.
 
-## Repo : https://bit.ly/4cZAYLU
+Repo : https://bit.ly/4cZAYLU
 
 ## ✨ Preview
 ![](nsocial.gif)
