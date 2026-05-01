@@ -1,0 +1,128 @@
+/* Genel reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Arka plan */
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Wrapper */
+.loginWrapper {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  border-radius: 20px;
+
+  gap: 40px;
+  background: linear-gradient(135deg, #3759f380, #5f05b96c);
+}
+
+/* Sol taraf */
+.loginLeft {
+  flex: 1;
+  color: white;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.loginDesc {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+/* Sağ taraf */
+.loginRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass box */
+.loginBox {
+  width: 100%;
+  max-width: 350px;
+  padding: 40px;
+
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input */
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 15px;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.loginInput::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+.loginButton {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+
+  background: #fff;
+  color: #764ba2;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginButton:hover {
+  background: #ddd;
+}
+
+.forgotPass {
+  color: #ddd;
+  text-align: center;
+  font-size: smaller;
+
+}
+
+.createButton {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+
+  background: #3d28fc;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.createButton:hover {
+  background: #ddd;
+  color: black;
+}
